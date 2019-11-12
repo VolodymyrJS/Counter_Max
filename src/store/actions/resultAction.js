@@ -18,6 +18,6 @@ export const showResult = (res) => {
     return dispatch => {
         setTimeout(() => {
             dispatch(prepareResult(res));
-        }, 3000);
+        }, 1000);
     };
 };
